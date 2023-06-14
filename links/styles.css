@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+*{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+}
+
+.paragrafos{
+    color: white;
+    text-align: center;
+    left: 50%;
+   
+    
+}

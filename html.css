@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+*{
+    background-color: rgb(27, 24, 24);
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+}
+
+#imagem{
+    text-align: center;
+}
