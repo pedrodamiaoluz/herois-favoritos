@@ -1,14 +1,25 @@
 @charset "UTF-8";
 
 *{
-    background-color: rgb(27, 24, 24);
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url('imagem/inicio-fundo.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .titulo{
     color: white;
     text-align: center;
+    margin-top: 20px;
 }
 
 #imagem{
     text-align: center;
+    margin-top: 20px;
+    border-color: red;
 }
+

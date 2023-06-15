@@ -12,11 +12,11 @@ body{
     background-attachment: fixed;
 }
 
-
 .corpo{
-    width: 1000px;
+    width: 950px;
     margin: auto;
 }
+
 
 .titulo{
     color: white;
@@ -25,34 +25,35 @@ body{
 }
 
 .conteudo{
-    display: table;
+    display: table-cell;
+    
 }
 
 .imagem{
     display: table-cell;
     float: left;
     mix-blend-mode:exclusion;
+    margin-right: 50px;
 }
 
 .texto{
     color: white;
     display: table-cell;
     float: left;
-    width:700px;
+    width:600px;
     margin-top: 150px;
     text-align: justify;
     font-size: 16px;
-    margin-left: 50px;
-}
-
-.button{
-    text-align: center;
-    margin-top: -30px; 
-
-}
-
-.cor{
-    border-radius: 3px 3px 3px;
-    mix-blend-mode:exclusion;
     
 }
+
+.butao{
+   position: relative;
+   margin-top: -30px;
+   text-align: center;
+   color: blue;
+   
+}
+
+
+
