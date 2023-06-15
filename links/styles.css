@@ -10,23 +10,25 @@ body{
     background: url('../imagem/fundo-home-ferro-1.jpg')no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+
 }
 
 .corpo{
-    width: 950px;
-    margin: auto;
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
-
 .titulo{
-    color: white;
-    text-align: center;
-    margin-top: 20px;
+    color: red;
+    text-align: justify;
+
 }
 
 .conteudo{
-    display: table-cell;
-    
+    display: table-cell; 
+    margin-top: 50px;
 }
 
 .imagem{
@@ -40,7 +42,7 @@ body{
     color: white;
     display: table-cell;
     float: left;
-    width:600px;
+    width: 650px;
     margin-top: 150px;
     text-align: justify;
     font-size: 16px;
@@ -48,11 +50,9 @@ body{
 }
 
 .butao{
-   position: relative;
-   margin-top: -30px;
+   border-radius: 100%;
    text-align: center;
-   color: blue;
-   
+   margin-top: -30px;
 }
 
 
